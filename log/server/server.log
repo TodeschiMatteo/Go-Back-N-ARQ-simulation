@@ -54,3 +54,960 @@
 2025-05-10 18:00:08,444 - INFO - Packets accepted: 20
 2025-05-10 18:00:08,444 - INFO - Packets discarded: 4
 2025-05-10 18:00:08,445 - INFO - ==============================
+2025-05-20 09:59:13,845 - INFO - ============================================================
+2025-05-20 09:59:13,846 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 09:59:13,847 - INFO - Waiting for packets...
+2025-05-20 09:59:19,150 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 53189)
+2025-05-20 09:59:19,150 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 09:59:19,151 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 53189)
+2025-05-20 09:59:19,152 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 09:59:19,153 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 53189)
+2025-05-20 09:59:19,153 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 09:59:20,164 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 53189)
+2025-05-20 09:59:20,165 - INFO - Out-of-order packet 4 discarded, expected 3
+2025-05-20 09:59:20,166 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 53189)
+2025-05-20 09:59:20,167 - INFO - Out-of-order packet 5 discarded, expected 3
+2025-05-20 09:59:21,174 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 53189)
+2025-05-20 09:59:21,174 - INFO - Out-of-order packet 4 discarded, expected 3
+2025-05-20 09:59:21,175 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 53189)
+2025-05-20 09:59:21,176 - INFO - Out-of-order packet 5 discarded, expected 3
+2025-05-20 09:59:22,182 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 53189)
+2025-05-20 09:59:22,183 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 09:59:22,184 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 53189)
+2025-05-20 09:59:22,184 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 09:59:22,185 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 53189)
+2025-05-20 09:59:22,186 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 09:59:23,190 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 53189)
+2025-05-20 09:59:23,191 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 09:59:23,192 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 53189)
+2025-05-20 09:59:23,192 - INFO - Out-of-order packet 8 discarded, expected 7
+2025-05-20 09:59:24,199 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 53189)
+2025-05-20 09:59:24,199 - INFO - Out-of-order packet 8 discarded, expected 7
+2025-05-20 09:59:25,201 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 53189)
+2025-05-20 09:59:25,202 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 09:59:25,203 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 53189)
+2025-05-20 09:59:25,204 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 09:59:25,204 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 53189)
+2025-05-20 09:59:25,205 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 09:59:26,222 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 53189)
+2025-05-20 09:59:26,223 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 09:59:26,224 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 53189)
+2025-05-20 09:59:26,224 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 09:59:26,225 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 53189)
+2025-05-20 09:59:26,226 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 09:59:27,226 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 53189)
+2025-05-20 09:59:27,227 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 09:59:27,228 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 53189)
+2025-05-20 09:59:27,228 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 09:59:27,229 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 53189)
+2025-05-20 09:59:27,230 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 09:59:28,244 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 53189)
+2025-05-20 09:59:28,245 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 09:59:28,246 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 53189)
+2025-05-20 09:59:28,246 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 09:59:28,247 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 53189)
+2025-05-20 09:59:28,248 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 09:59:30,266 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 53189)
+2025-05-20 09:59:30,267 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 09:59:30,268 - INFO - Received end marker, terminating
+2025-05-20 09:59:30,269 - INFO - ====== Server Statistics ======
+2025-05-20 09:59:30,269 - INFO - Total packets received: 27
+2025-05-20 09:59:30,270 - INFO - Packets accepted: 20
+2025-05-20 09:59:30,270 - INFO - Packets discarded: 6
+2025-05-20 09:59:30,271 - INFO - ==============================
+2025-05-20 10:13:28,758 - INFO - ============================================================
+2025-05-20 10:13:28,759 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:13:28,760 - INFO - Waiting for packets...
+2025-05-20 10:13:46,254 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 60748)
+2025-05-20 10:13:46,255 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:13:46,256 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 60748)
+2025-05-20 10:13:46,257 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:13:46,258 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 60748)
+2025-05-20 10:13:46,258 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:13:47,271 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 60748)
+2025-05-20 10:13:47,272 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:13:47,273 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 60748)
+2025-05-20 10:13:47,274 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 10:13:47,275 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 60748)
+2025-05-20 10:13:47,275 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 10:13:48,280 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 60748)
+2025-05-20 10:13:48,281 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 10:13:48,282 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 60748)
+2025-05-20 10:13:48,282 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 10:13:48,283 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 60748)
+2025-05-20 10:13:48,284 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 10:13:50,294 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 60748)
+2025-05-20 10:13:50,295 - INFO - Out-of-order packet 10 discarded, expected 9
+2025-05-20 10:13:51,308 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 60748)
+2025-05-20 10:13:51,309 - INFO - Out-of-order packet 10 discarded, expected 9
+2025-05-20 10:13:51,310 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 60748)
+2025-05-20 10:13:51,310 - INFO - Out-of-order packet 11 discarded, expected 9
+2025-05-20 10:13:52,317 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 60748)
+2025-05-20 10:13:52,318 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 10:13:52,318 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 60748)
+2025-05-20 10:13:52,319 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 10:13:52,320 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 60748)
+2025-05-20 10:13:52,320 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 10:13:53,324 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 60748)
+2025-05-20 10:13:53,325 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 10:13:53,326 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 60748)
+2025-05-20 10:13:53,326 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 10:13:53,327 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 60748)
+2025-05-20 10:13:53,328 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 10:13:54,337 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 60748)
+2025-05-20 10:13:54,338 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 10:13:55,355 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 60748)
+2025-05-20 10:13:55,356 - INFO - Out-of-order packet 17 discarded, expected 16
+2025-05-20 10:13:55,357 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 60748)
+2025-05-20 10:13:55,357 - INFO - Out-of-order packet 18 discarded, expected 16
+2025-05-20 10:13:56,360 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 60748)
+2025-05-20 10:13:56,361 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 10:13:56,361 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 60748)
+2025-05-20 10:13:56,362 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 10:13:56,363 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 60748)
+2025-05-20 10:13:56,363 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 10:13:57,365 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 60748)
+2025-05-20 10:13:57,366 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 10:13:57,368 - INFO - Received end marker, terminating
+2025-05-20 10:13:57,368 - INFO - ====== Server Statistics ======
+2025-05-20 10:13:57,368 - INFO - Total packets received: 26
+2025-05-20 10:13:57,369 - INFO - Packets accepted: 20
+2025-05-20 10:13:57,370 - INFO - Packets discarded: 5
+2025-05-20 10:13:57,370 - INFO - ==============================
+2025-05-20 10:14:26,541 - INFO - ============================================================
+2025-05-20 10:14:26,542 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:14:26,542 - INFO - Waiting for packets...
+2025-05-20 10:14:31,880 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 60749)
+2025-05-20 10:14:31,881 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:15:54,951 - INFO - ============================================================
+2025-05-20 10:15:54,952 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:15:54,952 - INFO - Waiting for packets...
+2025-05-20 10:15:58,989 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 60750)
+2025-05-20 10:15:58,989 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:15:58,990 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 60750)
+2025-05-20 10:15:58,991 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:16:00,001 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 60750)
+2025-05-20 10:16:00,002 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:16:00,003 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 60750)
+2025-05-20 10:16:00,003 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:16:00,004 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 60750)
+2025-05-20 10:16:00,004 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 10:16:01,016 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 60750)
+2025-05-20 10:16:01,016 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 10:16:01,017 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 60750)
+2025-05-20 10:16:01,018 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 10:16:01,018 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 60750)
+2025-05-20 10:16:01,019 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 10:16:02,022 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 60750)
+2025-05-20 10:16:02,023 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 10:16:02,024 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 60750)
+2025-05-20 10:16:02,025 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 10:16:03,030 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 60750)
+2025-05-20 10:16:03,031 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 10:16:04,038 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 60750)
+2025-05-20 10:16:04,038 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 10:16:04,039 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 60750)
+2025-05-20 10:16:04,040 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 10:16:04,040 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 60750)
+2025-05-20 10:16:04,041 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 10:16:06,064 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 60750)
+2025-05-20 10:16:06,065 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 10:16:07,070 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 60750)
+2025-05-20 10:16:07,071 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 10:16:07,072 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 60750)
+2025-05-20 10:16:07,072 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 10:16:07,072 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 60750)
+2025-05-20 10:16:07,073 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 10:16:08,079 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 60750)
+2025-05-20 10:16:08,080 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 10:16:08,081 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 60750)
+2025-05-20 10:16:08,082 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 10:16:08,083 - INFO - Received end marker, terminating
+2025-05-20 10:16:08,083 - INFO - ====== Server Statistics ======
+2025-05-20 10:16:08,084 - INFO - Total packets received: 21
+2025-05-20 10:16:08,084 - INFO - Packets accepted: 20
+2025-05-20 10:16:08,085 - INFO - Packets discarded: 0
+2025-05-20 10:16:08,085 - INFO - ==============================
+2025-05-20 10:16:47,858 - INFO - ============================================================
+2025-05-20 10:16:47,859 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:16:47,860 - INFO - Waiting for packets...
+2025-05-20 10:16:55,867 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 59799)
+2025-05-20 10:16:55,868 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:16:55,868 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 59799)
+2025-05-20 10:16:55,869 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:16:56,874 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 59799)
+2025-05-20 10:16:56,875 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:16:56,875 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 59799)
+2025-05-20 10:16:56,876 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:16:56,877 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 59799)
+2025-05-20 10:16:56,877 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 10:16:57,879 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 59799)
+2025-05-20 10:16:57,880 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 10:16:57,881 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 59799)
+2025-05-20 10:16:57,882 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 10:16:57,882 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 59799)
+2025-05-20 10:16:57,883 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 10:16:58,886 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 59799)
+2025-05-20 10:16:58,887 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 10:16:58,888 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 59799)
+2025-05-20 10:16:58,889 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 10:16:58,889 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 59799)
+2025-05-20 10:16:58,890 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 10:16:59,890 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 59799)
+2025-05-20 10:16:59,891 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 10:16:59,892 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 59799)
+2025-05-20 10:16:59,892 - INFO - Out-of-order packet 13 discarded, expected 12
+2025-05-20 10:17:00,895 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 59799)
+2025-05-20 10:17:00,896 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 10:17:00,897 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 59799)
+2025-05-20 10:17:00,898 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 10:17:00,898 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 59799)
+2025-05-20 10:17:00,899 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 10:17:01,901 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 59799)
+2025-05-20 10:17:01,901 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 10:17:01,902 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 59799)
+2025-05-20 10:17:01,903 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 10:17:01,903 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 59799)
+2025-05-20 10:17:01,904 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 10:17:02,905 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 59799)
+2025-05-20 10:17:02,905 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 10:17:02,906 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 59799)
+2025-05-20 10:17:02,907 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 10:17:02,908 - INFO - Received end marker, terminating
+2025-05-20 10:17:02,908 - INFO - ====== Server Statistics ======
+2025-05-20 10:17:02,909 - INFO - Total packets received: 22
+2025-05-20 10:17:02,909 - INFO - Packets accepted: 20
+2025-05-20 10:17:02,910 - INFO - Packets discarded: 1
+2025-05-20 10:17:02,910 - INFO - ==============================
+2025-05-20 10:17:32,340 - INFO - ============================================================
+2025-05-20 10:17:32,340 - INFO - Starting Go-Back-N client with window size 3 on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:17:32,341 - INFO - Simulating loss of packet 0
+2025-05-20 10:17:32,342 - INFO - Simulating loss of packet 1
+2025-05-20 10:17:32,343 - INFO - Sent packet 2
+2025-05-20 10:17:33,355 - WARNING - Timeout #1: Retransmitting window from 0 to 2
+2025-05-20 10:17:33,355 - INFO - Retransmitting packet 0
+2025-05-20 10:17:33,355 - INFO - Simulating loss of packet 0
+2025-05-20 10:17:33,356 - INFO - Retransmitting packet 1
+2025-05-20 10:17:33,357 - INFO - Sent packet 1
+2025-05-20 10:17:33,358 - INFO - Retransmitting packet 2
+2025-05-20 10:17:33,359 - INFO - Sent packet 2
+2025-05-20 10:17:34,359 - WARNING - Timeout #2: Retransmitting window from 0 to 2
+2025-05-20 10:17:34,361 - INFO - Retransmitting packet 0
+2025-05-20 10:17:34,362 - INFO - Sent packet 0
+2025-05-20 10:17:34,362 - INFO - Retransmitting packet 1
+2025-05-20 10:17:34,363 - INFO - Sent packet 1
+2025-05-20 10:17:34,363 - INFO - Retransmitting packet 2
+2025-05-20 10:17:34,364 - INFO - Sent packet 2
+2025-05-20 10:17:34,365 - INFO - Received ACK 0
+2025-05-20 10:17:34,365 - INFO - Received ACK 1
+2025-05-20 10:17:34,366 - INFO - Received ACK 2
+2025-05-20 10:17:35,379 - WARNING - Timeout #1: Retransmitting window from 3 to 3
+2025-05-20 10:17:35,380 - INFO - Sent packet 3
+2025-05-20 10:17:35,381 - INFO - Sent packet 4
+2025-05-20 10:17:35,382 - INFO - Sent packet 5
+2025-05-20 10:17:35,382 - INFO - Received ACK 3
+2025-05-20 10:17:35,383 - INFO - Received ACK 4
+2025-05-20 10:17:35,384 - INFO - Received ACK 5
+2025-05-20 10:17:36,387 - WARNING - Timeout #1: Retransmitting window from 6 to 6
+2025-05-20 10:17:36,388 - INFO - Sent packet 6
+2025-05-20 10:17:36,389 - INFO - Simulating loss of packet 7
+2025-05-20 10:17:36,390 - INFO - Sent packet 8
+2025-05-20 10:17:36,391 - INFO - Received ACK 6
+2025-05-20 10:17:36,391 - INFO - Received ACK 6
+2025-05-20 10:17:37,393 - WARNING - Timeout #1: Retransmitting window from 7 to 8
+2025-05-20 10:17:37,394 - INFO - Retransmitting packet 7
+2025-05-20 10:17:37,395 - INFO - Simulating loss of packet 7
+2025-05-20 10:17:37,396 - INFO - Retransmitting packet 8
+2025-05-20 10:17:37,396 - INFO - Sent packet 8
+2025-05-20 10:17:37,397 - INFO - Sent packet 9
+2025-05-20 10:17:37,398 - INFO - Received ACK 6
+2025-05-20 10:17:37,399 - INFO - Received ACK 6
+2025-05-20 10:17:38,410 - WARNING - Timeout #2: Retransmitting window from 7 to 9
+2025-05-20 10:17:38,410 - INFO - Retransmitting packet 7
+2025-05-20 10:17:38,412 - INFO - Sent packet 7
+2025-05-20 10:17:38,412 - INFO - Retransmitting packet 8
+2025-05-20 10:17:38,413 - INFO - Simulating loss of packet 8
+2025-05-20 10:17:38,413 - INFO - Retransmitting packet 9
+2025-05-20 10:17:38,414 - INFO - Sent packet 9
+2025-05-20 10:17:38,415 - INFO - Received ACK 7
+2025-05-20 10:17:38,416 - INFO - Received ACK 7
+2025-05-20 10:17:39,430 - WARNING - Timeout #1: Retransmitting window from 8 to 9
+2025-05-20 10:17:39,431 - INFO - Retransmitting packet 8
+2025-05-20 10:17:39,432 - INFO - Simulating loss of packet 8
+2025-05-20 10:17:39,432 - INFO - Retransmitting packet 9
+2025-05-20 10:17:39,433 - INFO - Sent packet 9
+2025-05-20 10:17:39,434 - INFO - Sent packet 10
+2025-05-20 10:17:39,435 - INFO - Received ACK 7
+2025-05-20 10:17:39,436 - INFO - Received ACK 7
+2025-05-20 10:17:40,450 - WARNING - Timeout #2: Retransmitting window from 8 to 10
+2025-05-20 10:17:40,451 - INFO - Retransmitting packet 8
+2025-05-20 10:17:40,451 - INFO - Sent packet 8
+2025-05-20 10:17:40,452 - INFO - Retransmitting packet 9
+2025-05-20 10:17:40,453 - INFO - Simulating loss of packet 9
+2025-05-20 10:17:40,453 - INFO - Retransmitting packet 10
+2025-05-20 10:17:40,454 - INFO - Simulating loss of packet 10
+2025-05-20 10:17:40,454 - INFO - Received ACK 8
+2025-05-20 10:17:41,454 - WARNING - Timeout #1: Retransmitting window from 9 to 10
+2025-05-20 10:17:41,455 - INFO - Retransmitting packet 9
+2025-05-20 10:17:41,456 - INFO - Simulating loss of packet 9
+2025-05-20 10:17:41,456 - INFO - Retransmitting packet 10
+2025-05-20 10:17:41,457 - INFO - Sent packet 10
+2025-05-20 10:17:41,458 - INFO - Sent packet 11
+2025-05-20 10:17:41,459 - INFO - Received ACK 8
+2025-05-20 10:17:41,460 - INFO - Received ACK 8
+2025-05-20 10:17:42,459 - WARNING - Timeout #2: Retransmitting window from 9 to 11
+2025-05-20 10:17:42,460 - INFO - Retransmitting packet 9
+2025-05-20 10:17:42,461 - INFO - Sent packet 9
+2025-05-20 10:17:42,462 - INFO - Retransmitting packet 10
+2025-05-20 10:17:42,462 - INFO - Sent packet 10
+2025-05-20 10:17:42,463 - INFO - Retransmitting packet 11
+2025-05-20 10:17:42,464 - INFO - Sent packet 11
+2025-05-20 10:17:42,464 - INFO - Received ACK 9
+2025-05-20 10:17:42,465 - INFO - Received ACK 10
+2025-05-20 10:17:42,466 - INFO - Received ACK 11
+2025-05-20 10:17:43,478 - WARNING - Timeout #1: Retransmitting window from 12 to 12
+2025-05-20 10:17:43,479 - INFO - Sent packet 12
+2025-05-20 10:17:43,480 - INFO - Sent packet 13
+2025-05-20 10:17:43,480 - INFO - Simulating loss of packet 14
+2025-05-20 10:17:43,481 - INFO - Received ACK 12
+2025-05-20 10:17:43,482 - INFO - Received ACK 13
+2025-05-20 10:17:44,495 - WARNING - Timeout #1: Retransmitting window from 14 to 14
+2025-05-20 10:17:44,495 - INFO - Retransmitting packet 14
+2025-05-20 10:17:44,496 - INFO - Sent packet 14
+2025-05-20 10:17:44,497 - INFO - Sent packet 15
+2025-05-20 10:17:44,498 - INFO - Sent packet 16
+2025-05-20 10:17:44,499 - INFO - Received ACK 14
+2025-05-20 10:17:44,499 - INFO - Received ACK 15
+2025-05-20 10:17:44,500 - INFO - Received ACK 16
+2025-05-20 10:17:45,511 - WARNING - Timeout #1: Retransmitting window from 17 to 17
+2025-05-20 10:17:45,511 - INFO - Simulating loss of packet 17
+2025-05-20 10:17:45,512 - INFO - Sent packet 18
+2025-05-20 10:17:45,513 - INFO - Sent packet 19
+2025-05-20 10:17:45,514 - INFO - Received ACK 16
+2025-05-20 10:17:45,515 - INFO - Received ACK 16
+2025-05-20 10:17:46,526 - WARNING - Timeout #2: Retransmitting window from 17 to 19
+2025-05-20 10:17:46,527 - INFO - Retransmitting packet 17
+2025-05-20 10:17:46,528 - INFO - Sent packet 17
+2025-05-20 10:17:46,528 - INFO - Retransmitting packet 18
+2025-05-20 10:17:46,529 - INFO - Sent packet 18
+2025-05-20 10:17:46,530 - INFO - Retransmitting packet 19
+2025-05-20 10:17:46,530 - INFO - Simulating loss of packet 19
+2025-05-20 10:17:46,531 - INFO - Received ACK 17
+2025-05-20 10:17:46,531 - INFO - Received ACK 18
+2025-05-20 10:17:47,533 - WARNING - Timeout #1: Retransmitting window from 19 to 19
+2025-05-20 10:17:47,534 - INFO - Retransmitting packet 19
+2025-05-20 10:17:47,535 - INFO - Sent packet 19
+2025-05-20 10:17:47,536 - INFO - Received ACK 19
+2025-05-20 10:17:47,537 - INFO - Transmission complete, sent end marker
+2025-05-20 10:17:47,537 - INFO - ====== Transmission Statistics ======
+2025-05-20 10:17:47,538 - INFO - Total packets sent: 33
+2025-05-20 10:17:47,538 - INFO - Packets lost (simulated): 13
+2025-05-20 10:17:47,539 - INFO - Retransmissions: 26
+2025-05-20 10:17:47,540 - INFO - ACKs received: 30
+2025-05-20 10:17:47,540 - INFO - Elapsed time: 15.20 seconds
+2025-05-20 10:17:47,540 - INFO - ====================================
+2025-05-20 10:22:04,861 - INFO - ============================================================
+2025-05-20 10:22:04,861 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:22:04,862 - INFO - Waiting for packets...
+2025-05-20 10:22:08,405 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 55502)
+2025-05-20 10:22:08,406 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:22:08,406 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 55502)
+2025-05-20 10:22:08,407 - INFO - Out-of-order packet 2 discarded, expected 1
+2025-05-20 10:22:09,424 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 55502)
+2025-05-20 10:22:09,424 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:22:09,425 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 55502)
+2025-05-20 10:22:09,426 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:22:09,427 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 55502)
+2025-05-20 10:22:09,427 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:22:10,438 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 55502)
+2025-05-20 10:22:10,439 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 10:22:10,440 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 55502)
+2025-05-20 10:22:10,440 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 10:22:10,441 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 55502)
+2025-05-20 10:22:10,441 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 10:22:11,457 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 55502)
+2025-05-20 10:22:11,458 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 10:22:11,459 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 55502)
+2025-05-20 10:22:11,459 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 10:22:11,460 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 55502)
+2025-05-20 10:22:11,460 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 10:22:12,461 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 55502)
+2025-05-20 10:22:12,462 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 10:22:12,463 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 55502)
+2025-05-20 10:22:12,463 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 10:22:12,464 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 55502)
+2025-05-20 10:22:12,465 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 10:22:13,478 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 55502)
+2025-05-20 10:22:13,478 - INFO - Out-of-order packet 14 discarded, expected 13
+2025-05-20 10:22:13,479 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 55502)
+2025-05-20 10:22:13,480 - INFO - Out-of-order packet 15 discarded, expected 13
+2025-05-20 10:22:14,484 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 55502)
+2025-05-20 10:22:14,484 - INFO - Out-of-order packet 14 discarded, expected 13
+2025-05-20 10:22:14,485 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 55502)
+2025-05-20 10:22:14,486 - INFO - Out-of-order packet 15 discarded, expected 13
+2025-05-20 10:22:15,503 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 55502)
+2025-05-20 10:22:15,504 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 10:22:15,506 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 55502)
+2025-05-20 10:22:15,506 - INFO - Out-of-order packet 15 discarded, expected 14
+2025-05-20 10:22:16,519 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 55502)
+2025-05-20 10:22:16,520 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 10:22:16,522 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 55502)
+2025-05-20 10:22:16,522 - INFO - Out-of-order packet 16 discarded, expected 15
+2025-05-20 10:22:17,525 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 55502)
+2025-05-20 10:22:17,525 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 10:22:17,526 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 55502)
+2025-05-20 10:22:17,527 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 10:22:17,527 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 55502)
+2025-05-20 10:22:17,527 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 10:22:18,539 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 55502)
+2025-05-20 10:22:18,539 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 10:22:18,540 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 55502)
+2025-05-20 10:22:18,541 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 10:22:18,542 - INFO - Received end marker, terminating
+2025-05-20 10:22:18,542 - INFO - ====== Server Statistics ======
+2025-05-20 10:22:18,543 - INFO - Total packets received: 28
+2025-05-20 10:22:18,543 - INFO - Packets accepted: 20
+2025-05-20 10:22:18,544 - INFO - Packets discarded: 7
+2025-05-20 10:22:18,544 - INFO - ==============================
+2025-05-20 10:29:58,148 - INFO - ============================================================
+2025-05-20 10:29:58,148 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:29:58,149 - INFO - Waiting for packets...
+2025-05-20 10:30:02,000 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 51853)
+2025-05-20 10:30:02,001 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:30:02,001 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 51853)
+2025-05-20 10:30:02,002 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:30:02,002 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 51853)
+2025-05-20 10:30:02,003 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:30:03,016 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 51853)
+2025-05-20 10:30:03,016 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:30:03,017 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 51853)
+2025-05-20 10:30:03,018 - INFO - Out-of-order packet 5 discarded, expected 4
+2025-05-20 10:30:04,034 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 51853)
+2025-05-20 10:30:04,035 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 10:30:04,036 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 51853)
+2025-05-20 10:30:04,037 - INFO - Out-of-order packet 6 discarded, expected 5
+2025-05-20 10:30:05,039 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 51853)
+2025-05-20 10:30:05,039 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 10:30:05,040 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 51853)
+2025-05-20 10:30:05,041 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 10:30:05,041 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 51853)
+2025-05-20 10:30:05,042 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 10:30:06,051 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 51853)
+2025-05-20 10:30:06,052 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 10:30:06,053 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 51853)
+2025-05-20 10:30:06,053 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 10:30:06,054 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 51853)
+2025-05-20 10:30:06,054 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 10:30:07,069 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 51853)
+2025-05-20 10:30:07,069 - INFO - Out-of-order packet 12 discarded, expected 11
+2025-05-20 10:30:07,070 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 51853)
+2025-05-20 10:30:07,070 - INFO - Out-of-order packet 13 discarded, expected 11
+2025-05-20 10:30:08,072 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 51853)
+2025-05-20 10:30:08,073 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 10:30:08,074 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 51853)
+2025-05-20 10:30:08,075 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 10:30:09,092 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 51853)
+2025-05-20 10:30:09,093 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 10:30:09,094 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 51853)
+2025-05-20 10:30:09,095 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 10:30:09,095 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 51853)
+2025-05-20 10:30:09,096 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 10:30:10,096 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 51853)
+2025-05-20 10:30:10,097 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 10:30:10,098 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 51853)
+2025-05-20 10:30:10,098 - INFO - Out-of-order packet 18 discarded, expected 17
+2025-05-20 10:30:12,119 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 51853)
+2025-05-20 10:30:12,120 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 10:30:12,121 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 51853)
+2025-05-20 10:30:12,122 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 10:30:12,122 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 51853)
+2025-05-20 10:30:12,123 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 10:30:12,124 - INFO - Received end marker, terminating
+2025-05-20 10:30:12,125 - INFO - ====== Server Statistics ======
+2025-05-20 10:30:12,125 - INFO - Total packets received: 26
+2025-05-20 10:30:12,126 - INFO - Packets accepted: 20
+2025-05-20 10:30:12,126 - INFO - Packets discarded: 5
+2025-05-20 10:30:12,127 - INFO - ==============================
+2025-05-20 10:38:05,404 - INFO - ============================================================
+2025-05-20 10:38:05,405 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:38:05,406 - INFO - Waiting for packets...
+2025-05-20 10:38:08,459 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 52101)
+2025-05-20 10:38:08,459 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:38:08,460 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 52101)
+2025-05-20 10:38:08,461 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:38:08,461 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 52101)
+2025-05-20 10:38:08,461 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:38:09,471 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 52101)
+2025-05-20 10:38:09,472 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:38:09,473 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 52101)
+2025-05-20 10:38:09,473 - INFO - Out-of-order packet 5 discarded, expected 4
+2025-05-20 10:41:06,345 - INFO - ============================================================
+2025-05-20 10:41:06,346 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:41:06,346 - INFO - Waiting for packets...
+2025-05-20 10:41:08,659 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 52102)
+2025-05-20 10:41:08,660 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:41:08,661 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 52102)
+2025-05-20 10:41:08,661 - INFO - Out-of-order packet 2 discarded, expected 1
+2025-05-20 10:41:09,664 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 52102)
+2025-05-20 10:41:09,665 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:41:09,666 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 52102)
+2025-05-20 10:41:09,666 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:41:09,667 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 52102)
+2025-05-20 10:41:09,667 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:41:10,683 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 52102)
+2025-05-20 10:41:10,684 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 10:41:10,685 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 52102)
+2025-05-20 10:41:10,685 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 10:41:10,686 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 52102)
+2025-05-20 10:41:10,687 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 10:41:11,689 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 52102)
+2025-05-20 10:41:11,690 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 10:41:11,691 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 52102)
+2025-05-20 10:41:11,691 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 10:41:12,697 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 52102)
+2025-05-20 10:41:12,698 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 10:41:12,698 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 52102)
+2025-05-20 10:41:12,699 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 10:41:12,699 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 52102)
+2025-05-20 10:41:12,700 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 10:41:13,716 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 52102)
+2025-05-20 10:41:13,717 - INFO - Out-of-order packet 14 discarded, expected 12
+2025-05-20 10:41:14,719 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 52102)
+2025-05-20 10:41:14,719 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 10:41:14,720 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 52102)
+2025-05-20 10:41:14,721 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 10:41:14,722 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 52102)
+2025-05-20 10:41:14,722 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 10:41:16,744 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 52102)
+2025-05-20 10:41:16,745 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 10:41:16,746 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 52102)
+2025-05-20 10:41:16,747 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 10:41:17,763 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 52102)
+2025-05-20 10:41:17,764 - INFO - Out-of-order packet 18 discarded, expected 17
+2025-05-20 10:41:17,765 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 52102)
+2025-05-20 10:41:17,765 - INFO - Out-of-order packet 19 discarded, expected 17
+2025-05-20 10:41:18,779 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 52102)
+2025-05-20 10:41:18,780 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 10:41:18,780 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 52102)
+2025-05-20 10:41:18,781 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 10:41:18,782 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 52102)
+2025-05-20 10:41:18,782 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 10:41:18,784 - INFO - Received end marker, terminating
+2025-05-20 10:41:18,784 - INFO - ====== Server Statistics ======
+2025-05-20 10:41:18,785 - INFO - Total packets received: 25
+2025-05-20 10:41:18,786 - INFO - Packets accepted: 20
+2025-05-20 10:41:18,786 - INFO - Packets discarded: 4
+2025-05-20 10:41:18,787 - INFO - ==============================
+2025-05-20 10:42:53,468 - INFO - ============================================================
+2025-05-20 10:42:53,469 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:42:53,470 - INFO - Waiting for packets...
+2025-05-20 10:42:57,270 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 54220)
+2025-05-20 10:42:57,271 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:42:57,272 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 54220)
+2025-05-20 10:42:57,272 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:42:57,273 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 54220)
+2025-05-20 10:42:57,273 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:42:58,275 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 54220)
+2025-05-20 10:42:58,276 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:42:58,277 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 54220)
+2025-05-20 10:42:58,278 - INFO - Out-of-order packet 5 discarded, expected 4
+2025-05-20 10:42:59,284 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 54220)
+2025-05-20 10:42:59,285 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 10:42:59,286 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 54220)
+2025-05-20 10:42:59,286 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 10:42:59,287 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 54220)
+2025-05-20 10:42:59,288 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 10:43:00,292 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 54220)
+2025-05-20 10:43:00,292 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 10:43:00,293 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 54220)
+2025-05-20 10:43:00,294 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 10:43:01,297 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 54220)
+2025-05-20 10:43:01,297 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 10:43:01,298 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 54220)
+2025-05-20 10:43:01,299 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 10:43:01,300 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 54220)
+2025-05-20 10:43:01,300 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 10:43:02,316 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 54220)
+2025-05-20 10:43:02,316 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 10:43:02,317 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 54220)
+2025-05-20 10:43:02,318 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 10:43:02,319 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 54220)
+2025-05-20 10:43:02,319 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 10:43:03,325 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 54220)
+2025-05-20 10:43:03,325 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 10:43:04,345 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 54220)
+2025-05-20 10:43:04,346 - INFO - Out-of-order packet 17 discarded, expected 16
+2025-05-20 10:43:04,347 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 54220)
+2025-05-20 10:43:04,347 - INFO - Out-of-order packet 18 discarded, expected 16
+2025-05-20 10:43:05,364 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 54220)
+2025-05-20 10:43:05,365 - INFO - Out-of-order packet 17 discarded, expected 16
+2025-05-20 10:43:05,366 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 54220)
+2025-05-20 10:43:05,366 - INFO - Out-of-order packet 18 discarded, expected 16
+2025-05-20 10:43:06,384 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 54220)
+2025-05-20 10:43:06,385 - INFO - Out-of-order packet 17 discarded, expected 16
+2025-05-20 10:43:07,392 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 54220)
+2025-05-20 10:43:07,393 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 10:43:07,393 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 54220)
+2025-05-20 10:43:07,394 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 10:43:07,395 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 54220)
+2025-05-20 10:43:07,395 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 10:43:08,410 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 54220)
+2025-05-20 10:43:08,411 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 10:43:08,412 - INFO - Received end marker, terminating
+2025-05-20 10:43:08,413 - INFO - ====== Server Statistics ======
+2025-05-20 10:43:08,414 - INFO - Total packets received: 27
+2025-05-20 10:43:08,414 - INFO - Packets accepted: 20
+2025-05-20 10:43:08,415 - INFO - Packets discarded: 6
+2025-05-20 10:43:08,415 - INFO - ==============================
+2025-05-20 10:44:20,493 - INFO - ============================================================
+2025-05-20 10:44:20,494 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:44:20,495 - INFO - Waiting for packets...
+2025-05-20 10:44:23,684 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 53264)
+2025-05-20 10:44:23,685 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:44:23,686 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 53264)
+2025-05-20 10:44:23,686 - INFO - Out-of-order packet 2 discarded, expected 1
+2025-05-20 10:44:24,697 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 53264)
+2025-05-20 10:44:24,698 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:44:24,699 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 53264)
+2025-05-20 10:44:24,699 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:44:24,700 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 53264)
+2025-05-20 10:44:24,700 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:44:25,714 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 53264)
+2025-05-20 10:44:25,715 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 10:44:25,716 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 53264)
+2025-05-20 10:44:25,717 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 10:44:25,717 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 53264)
+2025-05-20 10:44:25,718 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 10:44:26,718 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 53264)
+2025-05-20 10:44:26,719 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 10:44:26,720 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 53264)
+2025-05-20 10:44:26,720 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 10:44:26,721 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 53264)
+2025-05-20 10:44:26,722 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 10:44:27,725 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 53264)
+2025-05-20 10:44:27,725 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 10:44:27,726 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 53264)
+2025-05-20 10:44:27,726 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 10:44:27,727 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 53264)
+2025-05-20 10:44:27,727 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 10:44:28,728 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 53264)
+2025-05-20 10:44:28,729 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 10:44:28,729 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 53264)
+2025-05-20 10:44:28,730 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 10:44:28,731 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 53264)
+2025-05-20 10:44:28,731 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 10:44:29,733 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 53264)
+2025-05-20 10:44:29,734 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 10:44:29,735 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 53264)
+2025-05-20 10:44:29,735 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 10:44:29,736 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 53264)
+2025-05-20 10:44:29,737 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 10:44:30,738 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 53264)
+2025-05-20 10:44:30,738 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 10:44:30,740 - INFO - Received end marker, terminating
+2025-05-20 10:44:30,740 - INFO - ====== Server Statistics ======
+2025-05-20 10:44:30,741 - INFO - Total packets received: 22
+2025-05-20 10:44:30,741 - INFO - Packets accepted: 20
+2025-05-20 10:44:30,742 - INFO - Packets discarded: 1
+2025-05-20 10:44:30,743 - INFO - ==============================
+2025-05-20 10:44:40,483 - INFO - ============================================================
+2025-05-20 10:44:40,483 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:44:40,484 - INFO - Waiting for packets...
+2025-05-20 10:44:43,445 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 64394)
+2025-05-20 10:44:43,446 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:44:43,447 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 64394)
+2025-05-20 10:44:43,448 - INFO - Out-of-order packet 2 discarded, expected 1
+2025-05-20 10:44:44,457 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 64394)
+2025-05-20 10:44:44,458 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:44:44,458 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 64394)
+2025-05-20 10:44:44,459 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:44:44,460 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 64394)
+2025-05-20 10:44:44,460 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:44:45,476 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 64394)
+2025-05-20 10:44:45,477 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 10:44:45,478 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 64394)
+2025-05-20 10:44:45,478 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 10:44:45,479 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 64394)
+2025-05-20 10:44:45,479 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 10:44:46,481 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 64394)
+2025-05-20 10:44:46,482 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 10:44:46,483 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 64394)
+2025-05-20 10:44:46,484 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 10:44:46,484 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 64394)
+2025-05-20 10:44:46,485 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 10:44:47,489 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 64394)
+2025-05-20 10:44:47,490 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 10:44:47,491 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 64394)
+2025-05-20 10:44:47,491 - INFO - Out-of-order packet 12 discarded, expected 11
+2025-05-20 10:44:48,507 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 64394)
+2025-05-20 10:44:48,508 - INFO - Out-of-order packet 12 discarded, expected 11
+2025-05-20 10:44:49,513 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 64394)
+2025-05-20 10:44:49,514 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 10:44:49,516 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 64394)
+2025-05-20 10:44:49,516 - INFO - Out-of-order packet 13 discarded, expected 12
+2025-05-20 10:44:50,519 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 64394)
+2025-05-20 10:44:50,520 - INFO - Out-of-order packet 13 discarded, expected 12
+2025-05-20 10:44:50,520 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 64394)
+2025-05-20 10:44:50,521 - INFO - Out-of-order packet 14 discarded, expected 12
+2025-05-20 10:44:51,523 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 64394)
+2025-05-20 10:44:51,524 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 10:44:51,525 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 64394)
+2025-05-20 10:44:51,525 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 10:44:51,526 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 64394)
+2025-05-20 10:44:51,527 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 10:44:52,541 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 64394)
+2025-05-20 10:44:52,542 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 10:44:52,542 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 64394)
+2025-05-20 10:44:52,543 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 10:44:53,547 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 64394)
+2025-05-20 10:44:53,548 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 10:44:53,549 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 64394)
+2025-05-20 10:44:53,549 - INFO - Out-of-order packet 19 discarded, expected 18
+2025-05-20 10:44:54,553 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 64394)
+2025-05-20 10:44:54,553 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 10:44:55,570 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 64394)
+2025-05-20 10:44:55,571 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 10:44:55,572 - INFO - Received end marker, terminating
+2025-05-20 10:44:55,573 - INFO - ====== Server Statistics ======
+2025-05-20 10:44:55,573 - INFO - Total packets received: 28
+2025-05-20 10:44:55,574 - INFO - Packets accepted: 20
+2025-05-20 10:44:55,574 - INFO - Packets discarded: 7
+2025-05-20 10:44:55,575 - INFO - ==============================
+2025-05-20 10:47:14,713 - INFO - ============================================================
+2025-05-20 10:47:14,714 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:47:14,714 - INFO - Waiting for packets...
+2025-05-20 10:47:17,495 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 61553)
+2025-05-20 10:47:17,495 - INFO - Out-of-order packet 1 discarded, expected 0
+2025-05-20 10:47:18,513 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 61553)
+2025-05-20 10:47:18,514 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:47:19,532 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 61553)
+2025-05-20 10:47:19,533 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:47:19,534 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 61553)
+2025-05-20 10:47:19,534 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:47:20,552 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 61553)
+2025-05-20 10:47:20,553 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:47:20,553 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 61553)
+2025-05-20 10:47:20,554 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 10:47:21,570 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 61553)
+2025-05-20 10:47:21,571 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 10:47:21,572 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 61553)
+2025-05-20 10:47:21,572 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 10:47:21,573 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 61553)
+2025-05-20 10:47:21,573 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 10:47:22,589 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 61553)
+2025-05-20 10:47:22,589 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 10:47:22,590 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 61553)
+2025-05-20 10:47:22,591 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 10:47:23,608 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 61553)
+2025-05-20 10:47:23,608 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 10:47:23,609 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 61553)
+2025-05-20 10:47:23,610 - INFO - Out-of-order packet 12 discarded, expected 11
+2025-05-20 10:47:24,625 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 61553)
+2025-05-20 10:47:24,626 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 10:47:24,627 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 61553)
+2025-05-20 10:47:24,628 - INFO - Out-of-order packet 13 discarded, expected 12
+2025-05-20 10:47:25,645 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 61553)
+2025-05-20 10:47:25,646 - INFO - Out-of-order packet 14 discarded, expected 12
+2025-05-20 10:47:26,661 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 61553)
+2025-05-20 10:47:26,661 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 10:47:26,662 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 61553)
+2025-05-20 10:47:26,663 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 10:47:26,663 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 61553)
+2025-05-20 10:47:26,664 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 10:47:27,678 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 61553)
+2025-05-20 10:47:27,679 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 10:47:27,680 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 61553)
+2025-05-20 10:47:27,681 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 10:47:27,681 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 61553)
+2025-05-20 10:47:27,682 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 10:47:28,696 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 61553)
+2025-05-20 10:47:28,696 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 10:47:28,698 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 61553)
+2025-05-20 10:47:28,699 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 10:47:28,700 - INFO - Received end marker, terminating
+2025-05-20 10:47:28,701 - INFO - ====== Server Statistics ======
+2025-05-20 10:47:28,701 - INFO - Total packets received: 25
+2025-05-20 10:47:28,701 - INFO - Packets accepted: 20
+2025-05-20 10:47:28,702 - INFO - Packets discarded: 4
+2025-05-20 10:47:28,702 - INFO - ==============================
+2025-05-20 10:47:47,388 - INFO - ============================================================
+2025-05-20 10:47:47,389 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:47:47,389 - INFO - Waiting for packets...
+2025-05-20 10:47:49,596 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 61554)
+2025-05-20 10:47:49,597 - INFO - Out-of-order packet 2 discarded, expected 0
+2025-05-20 10:47:50,614 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 61554)
+2025-05-20 10:47:50,615 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:47:50,615 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 61554)
+2025-05-20 10:47:50,616 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:47:51,619 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 61554)
+2025-05-20 10:47:51,619 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:47:51,620 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 61554)
+2025-05-20 10:47:51,621 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:47:52,623 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 61554)
+2025-05-20 10:47:52,624 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 10:47:52,624 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 61554)
+2025-05-20 10:47:52,625 - INFO - Out-of-order packet 6 discarded, expected 5
+2025-05-20 10:47:53,642 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 61554)
+2025-05-20 10:47:53,642 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 10:47:53,643 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 61554)
+2025-05-20 10:47:53,644 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 10:47:53,645 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 61554)
+2025-05-20 10:47:53,645 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 10:47:54,648 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 61554)
+2025-05-20 10:47:54,648 - INFO - Out-of-order packet 10 discarded, expected 8
+2025-05-20 10:47:55,665 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 61554)
+2025-05-20 10:47:55,666 - INFO - Out-of-order packet 9 discarded, expected 8
+2025-05-20 10:47:55,667 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 61554)
+2025-05-20 10:47:55,667 - INFO - Out-of-order packet 10 discarded, expected 8
+2025-05-20 10:47:56,685 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 61554)
+2025-05-20 10:47:56,686 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 10:47:56,688 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 61554)
+2025-05-20 10:47:56,688 - INFO - Out-of-order packet 10 discarded, expected 9
+2025-05-20 10:47:57,704 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 61554)
+2025-05-20 10:47:57,704 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 10:47:57,705 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 61554)
+2025-05-20 10:47:57,706 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 10:47:57,707 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 61554)
+2025-05-20 10:47:57,707 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 10:47:58,710 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 61554)
+2025-05-20 10:47:58,711 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 10:47:58,712 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 61554)
+2025-05-20 10:47:58,712 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 10:47:58,713 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 61554)
+2025-05-20 10:47:58,713 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 10:47:59,726 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 61554)
+2025-05-20 10:47:59,727 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 10:47:59,728 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 61554)
+2025-05-20 10:47:59,728 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 10:47:59,729 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 61554)
+2025-05-20 10:47:59,730 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 10:48:00,746 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 61554)
+2025-05-20 10:48:00,747 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 10:48:01,753 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 61554)
+2025-05-20 10:48:01,754 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 10:48:01,755 - INFO - Received end marker, terminating
+2025-05-20 10:48:01,756 - INFO - ====== Server Statistics ======
+2025-05-20 10:48:01,756 - INFO - Total packets received: 27
+2025-05-20 10:48:01,756 - INFO - Packets accepted: 20
+2025-05-20 10:48:01,757 - INFO - Packets discarded: 6
+2025-05-20 10:48:01,758 - INFO - ==============================
+2025-05-20 10:49:20,393 - INFO - ============================================================
+2025-05-20 10:49:20,393 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:49:20,394 - INFO - Waiting for packets...
+2025-05-20 10:49:23,772 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 58490)
+2025-05-20 10:49:23,773 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:49:23,774 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 58490)
+2025-05-20 10:49:23,774 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:49:23,775 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 58490)
+2025-05-20 10:49:23,776 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:49:24,779 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 58490)
+2025-05-20 10:49:24,780 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:49:24,781 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 58490)
+2025-05-20 10:49:24,781 - INFO - Out-of-order packet 5 discarded, expected 4
+2025-05-20 10:49:25,793 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 58490)
+2025-05-20 10:49:25,794 - INFO - Out-of-order packet 5 discarded, expected 4
+2025-05-20 10:49:25,795 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 58490)
+2025-05-20 10:49:25,795 - INFO - Out-of-order packet 6 discarded, expected 4
+2025-05-20 10:49:26,798 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 58490)
+2025-05-20 10:49:26,799 - INFO - Out-of-order packet 5 discarded, expected 4
+2025-05-20 10:49:27,809 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 58490)
+2025-05-20 10:49:27,809 - INFO - Out-of-order packet 6 discarded, expected 4
+2025-05-20 10:49:28,823 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 58490)
+2025-05-20 10:49:28,824 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 10:49:28,827 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 58490)
+2025-05-20 10:49:28,827 - INFO - Out-of-order packet 6 discarded, expected 5
+2025-05-20 10:49:29,843 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 58490)
+2025-05-20 10:49:29,844 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 10:49:29,845 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 58490)
+2025-05-20 10:49:29,846 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 10:49:30,850 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 58490)
+2025-05-20 10:49:30,850 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 10:49:30,851 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 58490)
+2025-05-20 10:49:30,852 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 10:49:30,852 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 58490)
+2025-05-20 10:49:30,853 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 10:49:31,858 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 58490)
+2025-05-20 10:49:31,859 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 10:49:31,859 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 58490)
+2025-05-20 10:49:31,860 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 10:49:31,861 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 58490)
+2025-05-20 10:49:31,861 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 10:49:32,863 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 58490)
+2025-05-20 10:49:32,864 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 10:49:32,865 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 58490)
+2025-05-20 10:49:32,865 - INFO - Out-of-order packet 15 discarded, expected 14
+2025-05-20 10:49:33,875 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 58490)
+2025-05-20 10:49:33,876 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 10:49:33,877 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 58490)
+2025-05-20 10:49:33,877 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 10:49:33,878 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 58490)
+2025-05-20 10:49:33,878 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 10:49:34,880 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 58490)
+2025-05-20 10:49:34,881 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 10:49:34,881 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 58490)
+2025-05-20 10:49:34,882 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 10:49:34,883 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 58490)
+2025-05-20 10:49:34,884 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 10:49:34,885 - INFO - Received end marker, terminating
+2025-05-20 10:49:34,885 - INFO - ====== Server Statistics ======
+2025-05-20 10:49:34,886 - INFO - Total packets received: 28
+2025-05-20 10:49:34,886 - INFO - Packets accepted: 20
+2025-05-20 10:49:34,887 - INFO - Packets discarded: 7
+2025-05-20 10:49:34,887 - INFO - ==============================
+2025-05-20 10:50:15,159 - INFO - ============================================================
+2025-05-20 10:50:15,160 - INFO - Starting Go-Back-N server on lab33-02-02 -> 192.168.56.1:1235
+2025-05-20 10:50:15,161 - INFO - Waiting for packets...
+2025-05-20 10:50:18,865 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 58491)
+2025-05-20 10:50:18,865 - INFO - Out-of-order packet 1 discarded, expected 0
+2025-05-20 10:50:18,866 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 58491)
+2025-05-20 10:50:18,867 - INFO - Out-of-order packet 2 discarded, expected 0
+2025-05-20 10:50:19,877 - INFO - Received packet with seq_num 0 from ('192.168.56.1', 58491)
+2025-05-20 10:50:19,878 - INFO - Packet 0 accepted, sending ACK
+2025-05-20 10:50:19,879 - INFO - Received packet with seq_num 1 from ('192.168.56.1', 58491)
+2025-05-20 10:50:19,879 - INFO - Packet 1 accepted, sending ACK
+2025-05-20 10:50:19,880 - INFO - Received packet with seq_num 2 from ('192.168.56.1', 58491)
+2025-05-20 10:50:19,881 - INFO - Packet 2 accepted, sending ACK
+2025-05-20 10:50:20,885 - INFO - Received packet with seq_num 3 from ('192.168.56.1', 58491)
+2025-05-20 10:50:20,886 - INFO - Packet 3 accepted, sending ACK
+2025-05-20 10:50:20,887 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 58491)
+2025-05-20 10:50:20,888 - INFO - Out-of-order packet 5 discarded, expected 4
+2025-05-20 10:50:21,890 - INFO - Received packet with seq_num 4 from ('192.168.56.1', 58491)
+2025-05-20 10:50:21,891 - INFO - Packet 4 accepted, sending ACK
+2025-05-20 10:50:21,892 - INFO - Received packet with seq_num 5 from ('192.168.56.1', 58491)
+2025-05-20 10:50:21,892 - INFO - Packet 5 accepted, sending ACK
+2025-05-20 10:50:21,893 - INFO - Received packet with seq_num 6 from ('192.168.56.1', 58491)
+2025-05-20 10:50:21,894 - INFO - Packet 6 accepted, sending ACK
+2025-05-20 10:50:22,901 - INFO - Received packet with seq_num 7 from ('192.168.56.1', 58491)
+2025-05-20 10:50:22,901 - INFO - Packet 7 accepted, sending ACK
+2025-05-20 10:50:22,902 - INFO - Received packet with seq_num 8 from ('192.168.56.1', 58491)
+2025-05-20 10:50:22,903 - INFO - Packet 8 accepted, sending ACK
+2025-05-20 10:50:22,904 - INFO - Received packet with seq_num 9 from ('192.168.56.1', 58491)
+2025-05-20 10:50:22,904 - INFO - Packet 9 accepted, sending ACK
+2025-05-20 10:50:23,911 - INFO - Received packet with seq_num 10 from ('192.168.56.1', 58491)
+2025-05-20 10:50:23,911 - INFO - Packet 10 accepted, sending ACK
+2025-05-20 10:50:23,912 - INFO - Received packet with seq_num 11 from ('192.168.56.1', 58491)
+2025-05-20 10:50:23,913 - INFO - Packet 11 accepted, sending ACK
+2025-05-20 10:50:23,913 - INFO - Received packet with seq_num 12 from ('192.168.56.1', 58491)
+2025-05-20 10:50:23,914 - INFO - Packet 12 accepted, sending ACK
+2025-05-20 10:50:24,917 - INFO - Received packet with seq_num 13 from ('192.168.56.1', 58491)
+2025-05-20 10:50:24,918 - INFO - Packet 13 accepted, sending ACK
+2025-05-20 10:50:24,919 - INFO - Received packet with seq_num 14 from ('192.168.56.1', 58491)
+2025-05-20 10:50:24,919 - INFO - Packet 14 accepted, sending ACK
+2025-05-20 10:50:24,920 - INFO - Received packet with seq_num 15 from ('192.168.56.1', 58491)
+2025-05-20 10:50:24,921 - INFO - Packet 15 accepted, sending ACK
+2025-05-20 10:50:25,935 - INFO - Received packet with seq_num 16 from ('192.168.56.1', 58491)
+2025-05-20 10:50:25,936 - INFO - Packet 16 accepted, sending ACK
+2025-05-20 10:50:25,937 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 58491)
+2025-05-20 10:50:25,937 - INFO - Out-of-order packet 18 discarded, expected 17
+2025-05-20 10:50:26,948 - INFO - Received packet with seq_num 17 from ('192.168.56.1', 58491)
+2025-05-20 10:50:26,949 - INFO - Packet 17 accepted, sending ACK
+2025-05-20 10:50:26,950 - INFO - Received packet with seq_num 18 from ('192.168.56.1', 58491)
+2025-05-20 10:50:26,950 - INFO - Packet 18 accepted, sending ACK
+2025-05-20 10:50:26,951 - INFO - Received packet with seq_num 19 from ('192.168.56.1', 58491)
+2025-05-20 10:50:26,951 - INFO - Packet 19 accepted, sending ACK
+2025-05-20 10:50:26,952 - INFO - Received end marker, terminating
+2025-05-20 10:50:26,952 - INFO - ====== Server Statistics ======
+2025-05-20 10:50:26,954 - INFO - Total packets received: 25
+2025-05-20 10:50:26,954 - INFO - Packets accepted: 20
+2025-05-20 10:50:26,955 - INFO - Packets discarded: 4
+2025-05-20 10:50:26,955 - INFO - ==============================

@@ -1,57 +1,61 @@
-2025-05-29 15:53:13,150 - INFO - ============================================================
-2025-05-29 15:53:13,150 - INFO - Starting Go-Back-N server on MATTE-LAPTOP -> 192.168.0.83:1235
-2025-05-29 15:53:13,151 - INFO - Waiting for packets...
-2025-05-29 15:53:19,484 - INFO - Received packet with seq_num 0 from ('192.168.0.83', 59822)
-2025-05-29 15:53:19,484 - INFO - Packet 0 accepted, sending ACK
-2025-05-29 15:53:19,486 - INFO - Received packet with seq_num 2 from ('192.168.0.83', 59822)
-2025-05-29 15:53:19,488 - INFO - Out-of-order packet 2 discarded, expected 1
-2025-05-29 15:53:20,497 - INFO - Received packet with seq_num 1 from ('192.168.0.83', 59822)
-2025-05-29 15:53:20,497 - INFO - Packet 1 accepted, sending ACK
-2025-05-29 15:53:20,501 - INFO - Received packet with seq_num 2 from ('192.168.0.83', 59822)
-2025-05-29 15:53:20,501 - INFO - Packet 2 accepted, sending ACK
-2025-05-29 15:53:20,501 - INFO - Received packet with seq_num 3 from ('192.168.0.83', 59822)
-2025-05-29 15:53:20,501 - INFO - Packet 3 accepted, sending ACK
-2025-05-29 15:53:21,501 - INFO - Received packet with seq_num 4 from ('192.168.0.83', 59822)
-2025-05-29 15:53:21,501 - INFO - Packet 4 accepted, sending ACK
-2025-05-29 15:53:21,501 - INFO - Received packet with seq_num 5 from ('192.168.0.83', 59822)
-2025-05-29 15:53:21,501 - INFO - Packet 5 accepted, sending ACK
-2025-05-29 15:53:21,507 - INFO - Received packet with seq_num 6 from ('192.168.0.83', 59822)
-2025-05-29 15:53:21,507 - INFO - Packet 6 accepted, sending ACK
-2025-05-29 15:53:22,516 - INFO - Received packet with seq_num 8 from ('192.168.0.83', 59822)
-2025-05-29 15:53:22,516 - INFO - Out-of-order packet 8 discarded, expected 7
-2025-05-29 15:53:22,516 - INFO - Received packet with seq_num 9 from ('192.168.0.83', 59822)
-2025-05-29 15:53:22,516 - INFO - Out-of-order packet 9 discarded, expected 7
-2025-05-29 15:53:23,530 - INFO - Received packet with seq_num 7 from ('192.168.0.83', 59822)
-2025-05-29 15:53:23,530 - INFO - Packet 7 accepted, sending ACK
-2025-05-29 15:53:23,530 - INFO - Received packet with seq_num 8 from ('192.168.0.83', 59822)
-2025-05-29 15:53:23,530 - INFO - Packet 8 accepted, sending ACK
-2025-05-29 15:53:23,530 - INFO - Received packet with seq_num 9 from ('192.168.0.83', 59822)
-2025-05-29 15:53:23,537 - INFO - Packet 9 accepted, sending ACK
-2025-05-29 15:53:24,533 - INFO - Received packet with seq_num 12 from ('192.168.0.83', 59822)
-2025-05-29 15:53:24,533 - INFO - Out-of-order packet 12 discarded, expected 10
-2025-05-29 15:53:25,545 - INFO - Received packet with seq_num 10 from ('192.168.0.83', 59822)
-2025-05-29 15:53:25,545 - INFO - Packet 10 accepted, sending ACK
-2025-05-29 15:53:25,548 - INFO - Received packet with seq_num 11 from ('192.168.0.83', 59822)
-2025-05-29 15:53:25,549 - INFO - Packet 11 accepted, sending ACK
-2025-05-29 15:53:26,560 - INFO - Received packet with seq_num 12 from ('192.168.0.83', 59822)
-2025-05-29 15:53:26,560 - INFO - Packet 12 accepted, sending ACK
-2025-05-29 15:53:26,564 - INFO - Received packet with seq_num 13 from ('192.168.0.83', 59822)
-2025-05-29 15:53:26,564 - INFO - Packet 13 accepted, sending ACK
-2025-05-29 15:53:26,567 - INFO - Received packet with seq_num 14 from ('192.168.0.83', 59822)
-2025-05-29 15:53:26,568 - INFO - Packet 14 accepted, sending ACK
-2025-05-29 15:53:27,573 - INFO - Received packet with seq_num 15 from ('192.168.0.83', 59822)
-2025-05-29 15:53:27,574 - INFO - Packet 15 accepted, sending ACK
-2025-05-29 15:53:27,574 - INFO - Received packet with seq_num 16 from ('192.168.0.83', 59822)
-2025-05-29 15:53:27,576 - INFO - Packet 16 accepted, sending ACK
-2025-05-29 15:53:27,577 - INFO - Received packet with seq_num 17 from ('192.168.0.83', 59822)
-2025-05-29 15:53:27,578 - INFO - Packet 17 accepted, sending ACK
-2025-05-29 15:53:28,580 - INFO - Received packet with seq_num 18 from ('192.168.0.83', 59822)
-2025-05-29 15:53:28,580 - INFO - Packet 18 accepted, sending ACK
-2025-05-29 15:53:28,582 - INFO - Received packet with seq_num 19 from ('192.168.0.83', 59822)
-2025-05-29 15:53:28,582 - INFO - Packet 19 accepted, sending ACK
-2025-05-29 15:53:28,585 - INFO - Received end marker, terminating
-2025-05-29 15:53:28,585 - INFO - ====== Server Statistics ======
-2025-05-29 15:53:28,585 - INFO - Total packets received: 25
-2025-05-29 15:53:28,587 - INFO - Packets accepted: 20
-2025-05-29 15:53:28,587 - INFO - Packets discarded: 4
-2025-05-29 15:53:28,589 - INFO - ==============================
+2025-05-29 15:58:14,930 - INFO - ============================================================
+2025-05-29 15:58:14,931 - INFO - Starting Go-Back-N server on LAPTOP -> 192.168.0.85:1235
+2025-05-29 15:58:14,931 - INFO - Waiting for packets...
+2025-05-29 15:58:18,916 - INFO - Received packet with seq_num 0 from ('192.168.0.83', 59242)
+2025-05-29 15:58:18,916 - INFO - Packet 0 accepted, sending ACK
+2025-05-29 15:58:18,916 - INFO - Received packet with seq_num 1 from ('192.168.0.83', 59242)
+2025-05-29 15:58:18,919 - INFO - Packet 1 accepted, sending ACK
+2025-05-29 15:58:18,921 - INFO - Received packet with seq_num 2 from ('192.168.0.83', 59242)
+2025-05-29 15:58:18,921 - INFO - Packet 2 accepted, sending ACK
+2025-05-29 15:58:19,930 - INFO - Received packet with seq_num 3 from ('192.168.0.83', 59242)
+2025-05-29 15:58:19,932 - INFO - Packet 3 accepted, sending ACK
+2025-05-29 15:58:19,932 - INFO - Received packet with seq_num 4 from ('192.168.0.83', 59242)
+2025-05-29 15:58:19,932 - INFO - Packet 4 accepted, sending ACK
+2025-05-29 15:58:19,932 - INFO - Received packet with seq_num 5 from ('192.168.0.83', 59242)
+2025-05-29 15:58:19,932 - INFO - Packet 5 accepted, sending ACK
+2025-05-29 15:58:20,936 - INFO - Received packet with seq_num 7 from ('192.168.0.83', 59242)
+2025-05-29 15:58:20,937 - INFO - Out-of-order packet 7 discarded, expected 6
+2025-05-29 15:58:20,937 - INFO - Received packet with seq_num 8 from ('192.168.0.83', 59242)
+2025-05-29 15:58:20,937 - INFO - Out-of-order packet 8 discarded, expected 6
+2025-05-29 15:58:21,944 - INFO - Received packet with seq_num 6 from ('192.168.0.83', 59242)
+2025-05-29 15:58:21,945 - INFO - Packet 6 accepted, sending ACK
+2025-05-29 15:58:21,945 - INFO - Received packet with seq_num 7 from ('192.168.0.83', 59242)
+2025-05-29 15:58:21,948 - INFO - Packet 7 accepted, sending ACK
+2025-05-29 15:58:21,948 - INFO - Received packet with seq_num 8 from ('192.168.0.83', 59242)
+2025-05-29 15:58:21,950 - INFO - Packet 8 accepted, sending ACK
+2025-05-29 15:58:22,951 - INFO - Received packet with seq_num 9 from ('192.168.0.83', 59242)
+2025-05-29 15:58:22,953 - INFO - Packet 9 accepted, sending ACK
+2025-05-29 15:58:22,956 - INFO - Received packet with seq_num 10 from ('192.168.0.83', 59242)
+2025-05-29 15:58:22,957 - INFO - Packet 10 accepted, sending ACK
+2025-05-29 15:58:22,958 - INFO - Received packet with seq_num 11 from ('192.168.0.83', 59242)
+2025-05-29 15:58:22,958 - INFO - Packet 11 accepted, sending ACK
+2025-05-29 15:58:24,982 - INFO - Received packet with seq_num 14 from ('192.168.0.83', 59242)
+2025-05-29 15:58:24,982 - INFO - Out-of-order packet 14 discarded, expected 12
+2025-05-29 15:58:25,986 - INFO - Received packet with seq_num 12 from ('192.168.0.83', 59242)
+2025-05-29 15:58:25,986 - INFO - Packet 12 accepted, sending ACK
+2025-05-29 15:58:25,986 - INFO - Received packet with seq_num 13 from ('192.168.0.83', 59242)
+2025-05-29 15:58:25,986 - INFO - Packet 13 accepted, sending ACK
+2025-05-29 15:58:25,992 - INFO - Received packet with seq_num 14 from ('192.168.0.83', 59242)
+2025-05-29 15:58:25,992 - INFO - Packet 14 accepted, sending ACK
+2025-05-29 15:58:27,003 - INFO - Received packet with seq_num 17 from ('192.168.0.83', 59242)
+2025-05-29 15:58:27,003 - INFO - Out-of-order packet 17 discarded, expected 15
+2025-05-29 15:58:28,018 - INFO - Received packet with seq_num 16 from ('192.168.0.83', 59242)
+2025-05-29 15:58:28,018 - INFO - Out-of-order packet 16 discarded, expected 15
+2025-05-29 15:58:28,021 - INFO - Received packet with seq_num 17 from ('192.168.0.83', 59242)
+2025-05-29 15:58:28,022 - INFO - Out-of-order packet 17 discarded, expected 15
+2025-05-29 15:58:29,026 - INFO - Received packet with seq_num 15 from ('192.168.0.83', 59242)
+2025-05-29 15:58:29,026 - INFO - Packet 15 accepted, sending ACK
+2025-05-29 15:58:29,028 - INFO - Received packet with seq_num 16 from ('192.168.0.83', 59242)
+2025-05-29 15:58:29,028 - INFO - Packet 16 accepted, sending ACK
+2025-05-29 15:58:29,028 - INFO - Received packet with seq_num 17 from ('192.168.0.83', 59242)
+2025-05-29 15:58:29,032 - INFO - Packet 17 accepted, sending ACK
+2025-05-29 15:58:30,035 - INFO - Received packet with seq_num 18 from ('192.168.0.83', 59242)
+2025-05-29 15:58:30,039 - INFO - Packet 18 accepted, sending ACK
+2025-05-29 15:58:30,039 - INFO - Received packet with seq_num 19 from ('192.168.0.83', 59242)
+2025-05-29 15:58:30,043 - INFO - Packet 19 accepted, sending ACK
+2025-05-29 15:58:30,043 - INFO - Received end marker, terminating
+2025-05-29 15:58:30,043 - INFO - ====== Server Statistics ======
+2025-05-29 15:58:30,043 - INFO - Total packets received: 27
+2025-05-29 15:58:30,043 - INFO - Packets accepted: 20
+2025-05-29 15:58:30,043 - INFO - Packets discarded: 6
+2025-05-29 15:58:30,043 - INFO - ==============================

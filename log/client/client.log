@@ -1,81 +1,97 @@
-2025-05-29 15:53:19,480 - INFO - ============================================================
-2025-05-29 15:53:19,480 - INFO - Starting Go-Back-N client with window size 3 on MATTE-LAPTOP -> 192.168.0.83:1235
-2025-05-29 15:53:19,484 - INFO - Sent packet 0
-2025-05-29 15:53:19,484 - INFO - Simulating loss of packet 1
-2025-05-29 15:53:19,486 - INFO - Sent packet 2
-2025-05-29 15:53:19,488 - INFO - Received ACK 0
-2025-05-29 15:53:19,488 - INFO - Received ACK 0
-2025-05-29 15:53:20,497 - WARNING - Timeout #1: Retransmitting window from 1 to 2
-2025-05-29 15:53:20,497 - INFO - Retransmitting packet 1
-2025-05-29 15:53:20,497 - INFO - Sent packet 1
-2025-05-29 15:53:20,497 - INFO - Retransmitting packet 2
-2025-05-29 15:53:20,501 - INFO - Sent packet 2
-2025-05-29 15:53:20,501 - INFO - Sent packet 3
-2025-05-29 15:53:20,501 - INFO - Received ACK 1
-2025-05-29 15:53:20,501 - INFO - Received ACK 2
-2025-05-29 15:53:20,505 - INFO - Received ACK 3
-2025-05-29 15:53:21,501 - WARNING - Timeout #1: Retransmitting window from 4 to 4
-2025-05-29 15:53:21,501 - INFO - Sent packet 4
-2025-05-29 15:53:21,501 - INFO - Sent packet 5
-2025-05-29 15:53:21,501 - INFO - Sent packet 6
-2025-05-29 15:53:21,501 - INFO - Received ACK 4
-2025-05-29 15:53:21,507 - INFO - Received ACK 5
-2025-05-29 15:53:21,509 - INFO - Received ACK 6
-2025-05-29 15:53:22,516 - WARNING - Timeout #1: Retransmitting window from 7 to 7
-2025-05-29 15:53:22,516 - INFO - Simulating loss of packet 7
-2025-05-29 15:53:22,516 - INFO - Sent packet 8
-2025-05-29 15:53:22,516 - INFO - Sent packet 9
-2025-05-29 15:53:22,516 - INFO - Received ACK 6
-2025-05-29 15:53:22,516 - INFO - Received ACK 6
-2025-05-29 15:53:23,530 - WARNING - Timeout #2: Retransmitting window from 7 to 9
-2025-05-29 15:53:23,530 - INFO - Retransmitting packet 7
-2025-05-29 15:53:23,530 - INFO - Sent packet 7
-2025-05-29 15:53:23,530 - INFO - Retransmitting packet 8
-2025-05-29 15:53:23,530 - INFO - Sent packet 8
-2025-05-29 15:53:23,530 - INFO - Retransmitting packet 9
-2025-05-29 15:53:23,530 - INFO - Sent packet 9
-2025-05-29 15:53:23,530 - INFO - Received ACK 7
-2025-05-29 15:53:23,537 - INFO - Received ACK 8
-2025-05-29 15:53:23,539 - INFO - Received ACK 9
-2025-05-29 15:53:24,530 - WARNING - Timeout #1: Retransmitting window from 10 to 10
-2025-05-29 15:53:24,530 - INFO - Simulating loss of packet 10
-2025-05-29 15:53:24,530 - INFO - Simulating loss of packet 11
-2025-05-29 15:53:24,533 - INFO - Sent packet 12
-2025-05-29 15:53:24,535 - INFO - Received ACK 9
-2025-05-29 15:53:25,544 - WARNING - Timeout #2: Retransmitting window from 10 to 12
-2025-05-29 15:53:25,545 - INFO - Retransmitting packet 10
-2025-05-29 15:53:25,545 - INFO - Sent packet 10
-2025-05-29 15:53:25,545 - INFO - Retransmitting packet 11
-2025-05-29 15:53:25,548 - INFO - Sent packet 11
-2025-05-29 15:53:25,548 - INFO - Retransmitting packet 12
-2025-05-29 15:53:25,549 - INFO - Simulating loss of packet 12
-2025-05-29 15:53:25,550 - INFO - Received ACK 10
-2025-05-29 15:53:25,550 - INFO - Received ACK 11
-2025-05-29 15:53:26,560 - WARNING - Timeout #1: Retransmitting window from 12 to 12
-2025-05-29 15:53:26,560 - INFO - Retransmitting packet 12
-2025-05-29 15:53:26,560 - INFO - Sent packet 12
-2025-05-29 15:53:26,560 - INFO - Sent packet 13
-2025-05-29 15:53:26,564 - INFO - Sent packet 14
-2025-05-29 15:53:26,564 - INFO - Received ACK 12
-2025-05-29 15:53:26,567 - INFO - Received ACK 13
-2025-05-29 15:53:26,568 - INFO - Received ACK 14
-2025-05-29 15:53:27,572 - WARNING - Timeout #1: Retransmitting window from 15 to 15
-2025-05-29 15:53:27,574 - INFO - Sent packet 15
-2025-05-29 15:53:27,574 - INFO - Sent packet 16
-2025-05-29 15:53:27,576 - INFO - Sent packet 17
-2025-05-29 15:53:27,577 - INFO - Received ACK 15
-2025-05-29 15:53:27,579 - INFO - Received ACK 16
-2025-05-29 15:53:27,580 - INFO - Received ACK 17
-2025-05-29 15:53:28,579 - WARNING - Timeout #1: Retransmitting window from 18 to 18
-2025-05-29 15:53:28,580 - INFO - Sent packet 18
-2025-05-29 15:53:28,580 - INFO - Sent packet 19
-2025-05-29 15:53:28,582 - INFO - Received ACK 18
-2025-05-29 15:53:28,582 - INFO - Received ACK 19
-2025-05-29 15:53:28,585 - INFO - Transmission complete, sent end marker
-2025-05-29 15:53:28,585 - INFO - ====== Transmission Statistics ======
-2025-05-29 15:53:28,585 - INFO - Total packets sent: 24
-2025-05-29 15:53:28,587 - INFO - Packets lost (simulated): 5
-2025-05-29 15:53:28,587 - INFO - Retransmissions: 9
-2025-05-29 15:53:28,589 - INFO - ACKs received: 24
-2025-05-29 15:53:28,589 - INFO - Elapsed time: 9.10 seconds
-2025-05-29 15:53:28,591 - INFO - ====================================
+2025-05-29 15:58:18,912 - INFO - ============================================================
+2025-05-29 15:58:18,912 - INFO - Starting Go-Back-N client with window size 3 on LAPTOP -> 192.168.0.85:1235
+2025-05-29 15:58:18,916 - INFO - Sent packet 0
+2025-05-29 15:58:18,916 - INFO - Sent packet 1
+2025-05-29 15:58:18,916 - INFO - Sent packet 2
+2025-05-29 15:58:18,921 - INFO - Received ACK 0
+2025-05-29 15:58:18,921 - INFO - Received ACK 1
+2025-05-29 15:58:18,923 - INFO - Received ACK 2
+2025-05-29 15:58:19,930 - INFO - Transmitting a NEW window from packet 3
+2025-05-29 15:58:19,930 - INFO - Sent packet 3
+2025-05-29 15:58:19,932 - INFO - Sent packet 4
+2025-05-29 15:58:19,932 - INFO - Sent packet 5
+2025-05-29 15:58:19,932 - INFO - Received ACK 3
+2025-05-29 15:58:19,932 - INFO - Received ACK 4
+2025-05-29 15:58:19,938 - INFO - Received ACK 5
+2025-05-29 15:58:20,934 - INFO - Transmitting a NEW window from packet 6
+2025-05-29 15:58:20,934 - INFO - Simulating loss of packet 6
+2025-05-29 15:58:20,936 - INFO - Sent packet 7
+2025-05-29 15:58:20,937 - INFO - Sent packet 8
+2025-05-29 15:58:20,937 - INFO - Received DUPLICATE ACK 5
+2025-05-29 15:58:20,942 - INFO - Received DUPLICATE ACK 5
+2025-05-29 15:58:21,940 - WARNING - Timeout #2: Retransmitting window from 6 to 8
+2025-05-29 15:58:21,940 - INFO - Retransmitting packet 6
+2025-05-29 15:58:21,944 - INFO - Sent packet 6
+2025-05-29 15:58:21,945 - INFO - Retransmitting packet 7
+2025-05-29 15:58:21,945 - INFO - Sent packet 7
+2025-05-29 15:58:21,948 - INFO - Retransmitting packet 8
+2025-05-29 15:58:21,948 - INFO - Sent packet 8
+2025-05-29 15:58:21,950 - INFO - Received ACK 6
+2025-05-29 15:58:21,952 - INFO - Received ACK 7
+2025-05-29 15:58:21,952 - INFO - Received ACK 8
+2025-05-29 15:58:22,951 - INFO - Transmitting a NEW window from packet 9
+2025-05-29 15:58:22,951 - INFO - Sent packet 9
+2025-05-29 15:58:22,953 - INFO - Sent packet 10
+2025-05-29 15:58:22,956 - INFO - Sent packet 11
+2025-05-29 15:58:22,957 - INFO - Received ACK 9
+2025-05-29 15:58:22,958 - INFO - Received ACK 10
+2025-05-29 15:58:22,960 - INFO - Received ACK 11
+2025-05-29 15:58:23,964 - INFO - Transmitting a NEW window from packet 12
+2025-05-29 15:58:23,964 - INFO - Simulating loss of packet 12
+2025-05-29 15:58:23,964 - INFO - Simulating loss of packet 13
+2025-05-29 15:58:23,964 - INFO - Simulating loss of packet 14
+2025-05-29 15:58:24,974 - WARNING - Timeout #2: Retransmitting window from 12 to 14
+2025-05-29 15:58:24,974 - INFO - Retransmitting packet 12
+2025-05-29 15:58:24,974 - INFO - Simulating loss of packet 12
+2025-05-29 15:58:24,974 - INFO - Retransmitting packet 13
+2025-05-29 15:58:24,982 - INFO - Simulating loss of packet 13
+2025-05-29 15:58:24,982 - INFO - Retransmitting packet 14
+2025-05-29 15:58:24,982 - INFO - Sent packet 14
+2025-05-29 15:58:24,988 - INFO - Received DUPLICATE ACK 11
+2025-05-29 15:58:25,984 - WARNING - Timeout #3: Retransmitting window from 12 to 14
+2025-05-29 15:58:25,985 - INFO - Retransmitting packet 12
+2025-05-29 15:58:25,986 - INFO - Sent packet 12
+2025-05-29 15:58:25,986 - INFO - Retransmitting packet 13
+2025-05-29 15:58:25,986 - INFO - Sent packet 13
+2025-05-29 15:58:25,986 - INFO - Retransmitting packet 14
+2025-05-29 15:58:25,986 - INFO - Sent packet 14
+2025-05-29 15:58:25,992 - INFO - Received ACK 12
+2025-05-29 15:58:25,992 - INFO - Received ACK 13
+2025-05-29 15:58:25,992 - INFO - Received ACK 14
+2025-05-29 15:58:27,003 - INFO - Transmitting a NEW window from packet 15
+2025-05-29 15:58:27,003 - INFO - Simulating loss of packet 15
+2025-05-29 15:58:27,003 - INFO - Simulating loss of packet 16
+2025-05-29 15:58:27,003 - INFO - Sent packet 17
+2025-05-29 15:58:27,012 - INFO - Received DUPLICATE ACK 14
+2025-05-29 15:58:28,014 - WARNING - Timeout #2: Retransmitting window from 15 to 17
+2025-05-29 15:58:28,014 - INFO - Retransmitting packet 15
+2025-05-29 15:58:28,014 - INFO - Simulating loss of packet 15
+2025-05-29 15:58:28,014 - INFO - Retransmitting packet 16
+2025-05-29 15:58:28,018 - INFO - Sent packet 16
+2025-05-29 15:58:28,018 - INFO - Retransmitting packet 17
+2025-05-29 15:58:28,021 - INFO - Sent packet 17
+2025-05-29 15:58:28,021 - INFO - Received DUPLICATE ACK 14
+2025-05-29 15:58:28,022 - INFO - Received DUPLICATE ACK 14
+2025-05-29 15:58:29,024 - WARNING - Timeout #3: Retransmitting window from 15 to 17
+2025-05-29 15:58:29,024 - INFO - Retransmitting packet 15
+2025-05-29 15:58:29,026 - INFO - Sent packet 15
+2025-05-29 15:58:29,026 - INFO - Retransmitting packet 16
+2025-05-29 15:58:29,028 - INFO - Sent packet 16
+2025-05-29 15:58:29,028 - INFO - Retransmitting packet 17
+2025-05-29 15:58:29,028 - INFO - Sent packet 17
+2025-05-29 15:58:29,028 - INFO - Received ACK 15
+2025-05-29 15:58:29,032 - INFO - Received ACK 16
+2025-05-29 15:58:29,033 - INFO - Received ACK 17
+2025-05-29 15:58:30,035 - INFO - Transmitting a NEW window from packet 18
+2025-05-29 15:58:30,035 - INFO - Sent packet 18
+2025-05-29 15:58:30,039 - INFO - Sent packet 19
+2025-05-29 15:58:30,039 - INFO - Received ACK 18
+2025-05-29 15:58:30,043 - INFO - Received ACK 19
+2025-05-29 15:58:30,043 - INFO - Transmission complete, sent end marker
+2025-05-29 15:58:30,043 - INFO - ====== Transmission Statistics ======
+2025-05-29 15:58:30,043 - INFO - Total packets sent: 26
+2025-05-29 15:58:30,043 - INFO - Packets lost (simulated): 9
+2025-05-29 15:58:30,043 - INFO - Retransmissions: 15
+2025-05-29 15:58:30,043 - INFO - ACKs received: 26
+2025-05-29 15:58:30,043 - INFO - Elapsed time: 11.13 seconds
+2025-05-29 15:58:30,043 - INFO - ====================================

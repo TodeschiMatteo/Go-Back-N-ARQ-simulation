@@ -136,7 +136,12 @@ def main():
                     ack_num = extract_ack(data)
                     
                     if ack_num is not None:
-                        logging.info(f"Received ACK {ack_num}")
+                        if ack_num is not None:
+                            if ack_num == base - 1:
+                                logging.info(f"Received DUPLICATE ACK {ack_num}")
+                            else:
+                                logging.info(f"Received ACK {ack_num}")
+
                         stats["acks_received"] += 1
                         
                         # Tutti i pacchetti sono riconosciuti tramite l'ACK
@@ -161,8 +166,11 @@ def main():
                 abort_packet = json.dumps({"header": {"abort": True}}).encode()
                 s.sendto(abort_packet, server_address)
                 break
-                
-            logging.warning(f"Timeout #{consecutive_timeouts}: Retransmitting window from {base} to {next_seq_num-1 if next_seq_num > base else base}")
+            
+            if base != (next_seq_num-1 if next_seq_num > base else base):
+                logging.warning(f"Timeout #{consecutive_timeouts}: Retransmitting window from {base} to {next_seq_num-1 if next_seq_num > base else base}")
+            else:
+                logging.info(f"Transmitting a NEW window from packet {base}")
             
             # Ritrasmetti tutti i pacchetti della finestra
             for i in range(base, min(next_seq_num, TOTAL_PACKETS)):

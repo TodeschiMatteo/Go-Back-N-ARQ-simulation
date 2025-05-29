@@ -1,5 +1,5 @@
 2025-05-29 15:58:18,912 - INFO - ============================================================
-2025-05-29 15:58:18,912 - INFO - Starting Go-Back-N client with window size 3 on LAPTOP -> 192.168.0.85:1235
+2025-05-29 15:58:18,912 - INFO - Starting Go-Back-N client with window size 3 on LAPTOP -> 192.168.0.83:1235
 2025-05-29 15:58:18,916 - INFO - Sent packet 0
 2025-05-29 15:58:18,916 - INFO - Sent packet 1
 2025-05-29 15:58:18,916 - INFO - Sent packet 2

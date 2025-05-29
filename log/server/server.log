@@ -1,5 +1,5 @@
 2025-05-29 15:58:14,930 - INFO - ============================================================
-2025-05-29 15:58:14,931 - INFO - Starting Go-Back-N server on LAPTOP -> 192.168.0.85:1235
+2025-05-29 15:58:14,931 - INFO - Starting Go-Back-N server on LAPTOP -> 192.168.0.83:1235
 2025-05-29 15:58:14,931 - INFO - Waiting for packets...
 2025-05-29 15:58:18,916 - INFO - Received packet with seq_num 0 from ('192.168.0.83', 59242)
 2025-05-29 15:58:18,916 - INFO - Packet 0 accepted, sending ACK
